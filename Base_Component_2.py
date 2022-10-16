@@ -60,6 +60,7 @@ print("If you think the math equations are correct please enter 'true' ")
 print("If you think the math equations are incorrect please enter 'false'   ")
 print()
 
+# Defines variables
 
 game_summary = []
 mode = "regular"
@@ -81,6 +82,8 @@ while end_game == "no" and rounds_played < rounds:
 
     print(heading)
     print()
+
+    #Defines variables
 
     num_1 = random.randint(1, 12)
     num_2 = random.randint(1, 12)
